@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('node_modules/animate.css/animate.min.css');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo-img{
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+
+    @media(max-width: 700px){
+        height: 300px;
+        width: auto;
+    }
+    
+}
+
+.nav-item{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.app-card{
+    height: 200px;
+    background: rgb(248, 248, 248);
+    background-origin: content-box;
+    margin: 20px;
+    border-radius: 5px;
+    padding: 40px;
+    -webkit-box-shadow: 0px 5px 14px -7px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 5px 14px -7px rgba(66, 68, 90, 1);
+    box-shadow: 0px 5px 14px -7px rgba(66, 68, 90, 1);
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.app-card:hover{
+    transform:translateY(-5px);
+    -webkit-box-shadow: 0px 12px 14px -7px rgba(66, 68, 90, 1);
+    -moz-box-shadow: 0px 12px 14px -7px rgba(66, 68, 90, 1);
+    box-shadow: 0px 12px 14px -7px rgba(66, 68, 90, 1);
+}

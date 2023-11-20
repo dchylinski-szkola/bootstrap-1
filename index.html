@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wszystko o HTML 5</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" href="HTML5 Logo.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="nav">
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <div class="container-fluid">
+                    
+                  <a class="navbar-brand text-white" href="index.html">
+                    <img src="HTML5 Logo.svg" alt="logo" style="width: 50px; height: auto; margin-right: 20px; margin-left: 20px;" >
+                    
+                </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-list text-white"></i>
+                  </button>
+                  <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0 ">
+                      <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Strona główna</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="znaczniki_html5.html">Znaczniki HTML 5</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-white" href="polecane.html">Polecane materiały</a>
+                      </li>
+                      
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 d-flex justify-content-center">
+                <img src="HTML5 Logo.svg" alt="LOGO" class="img-fluid logo-img">
+            </div>
+        </div>
+
+        <div class="row mt-5 mb-5">
+          <div class="col-12">
+            <h1 class="text-center title animate__animated animate__zoomInDown">HTML - Hypertext Markup Language</h1>
+          </div>
+        </div>
+
+        <div class="row gx-5 d-flex justify-content-center mb-5">
+          <div class="col-11 col-lg-4 app-card animate__animated animate__zoomIn">
+            <div>
+              <h5><i class="bi bi-hourglass-split"></i> Ewolucja HTMLa</h5>
+              <p class="text-secondary">Wszystkie wersje krótko opisane</p>
+            </div>
+          </div>
+          <div class="col-11 col-lg-4 app-card animate__animated animate__zoomIn">
+            <div>
+              <h5><i class="bi bi-gear"></i> Konfiguracja strony internetowej</h5>
+              <p class="text-secondary">Podstawowe znaczniki, które powinny się znaleźć w sekcji "head"</p>
+            </div>
+          </div>
+          <div class="col-11 col-lg-4 app-card animate__animated animate__zoomIn">
+            <div>
+              <h5><i class="bi bi-google"></i> Znaczniki semantyczne</h5>
+              <p class="text-secondary">Jak poprawnić widoczność strony w wyszukiwarce Google?</p>
+            </div>
+          </div>
+          <div class="col-11 col-lg-4 app-card animate__animated animate__zoomIn">
+            <div>
+              <h5><i class="bi bi-youtube"></i> Poradniki, tutoriale</h5>
+              <p class="text-secondary">Lorem ipsum</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 mb-3">
+            <p class="text-dark text-opacity-50">&copy; Copyright 2023</p>
+          </div>
+          
+        </div>
+        </div>
+    </div>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script>
+      const title = document.querySelector('.title');
+
+      setTimeout(() => {
+        title.classList.remove('animate__animated');
+        title.classList.add('animate__animated');
+      }, 1500);
+    </script>
+</body>
+</html>
